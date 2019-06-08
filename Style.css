@@ -1,3 +1,37 @@
 body {
+    display: block;
+    position: relative;
+    width: 100%;
     background-color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header {
+    width: 1403px;
+    height: 782px;
+    background-color: #000000;
+    background-image: url(./Img/Header_bg_img.png);
+}
+
+#nav {
+    background-color: #ffffff;
+    height: 123px;
+    
+}
+
+.barnds-name {
+    text-align: center;
+}
+
+#nav a {
+    color: #212121;
+}
+
+
+.nav-list {
+    display: flex;
+    flex-direction: row;   
+    
 }

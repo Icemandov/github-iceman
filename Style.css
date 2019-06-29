@@ -85,7 +85,7 @@ body {
     margin-top: 45px;
 }
 
-.row button {
+#home .row button {
     margin-top: 110px;
 }
 
@@ -289,8 +289,120 @@ body {
     border: 2px solid #ffffff;
 }
 
+/* portfolio */
+
 #portfolio {
     width: 1402px;
     height: 1616px;
     max-width: 100%;
+}
+
+#portfolio h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #212121;    
+    font-weight: 700;
+    margin: 0 auto;
+    margin-top: 130px;    
+}
+
+#portfolio p {
+    width: 641px;
+    height: 52px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #212121;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.portfolioTopButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    margin-bottom: 120px;
+}
+
+.portfolioTopButtons button {
+    width: 179px;
+    height: 55px;    
+    border: 2px solid #00897b;
+    background-color: #ffffff;
+    border-radius: 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #212121;    
+    font-weight: 600;
+    margin-right: 20px;  
+}
+
+.portfolioTopButtons .allBtn {
+    width: 100px;
+    background-color: #00897b;
+    color: #ffffff;
+}
+
+.portfolioTopButtons button:hover {
+    background-color: #27be9f;
+    color: #ffffff;
+    border: none;
+}
+
+.portfolioImage img {
+    width: 370px;
+    height: 370px;
+    background-color: #000000;
+}
+
+.portfolioBottomButton {
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.portfolioBottomButton button {
+    width: 220px;
+    height: 70px;
+    background-color: #00897b;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
+    border: none;    
+}
+
+/* Pricing Plan section */
+
+#pricingPlan {
+    width: 1401px;
+    height: 1142px;
+    background-color: rgba(6,12,11,0.2);
+    max-width: 100%;
+}
+
+#pricingPlan h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #212121;    
+    font-weight: 700;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+#pricingPlan p {
+    width: 641px;
+    height: 52px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #212121;  
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 35px;
 }

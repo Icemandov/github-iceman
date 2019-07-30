@@ -65,14 +65,14 @@ body {
     margin-left: 20px;
 }
 
-.row h1 {    
+#home h1 {    
     font-size: 60px;
     letter-spacing: 3px;
     line-height: 22px;
     color: #ffffff;    
     font-weight: 600;
     margin: auto;
-    margin-top: 180px;    
+    margin-top: 180px;
 }
 
 #home p {
@@ -85,9 +85,9 @@ body {
     margin-top: 45px;
 }
 
-#home .row button {
+/* #home .row button {
     margin-top: 110px;
-}
+} */
 
 .leftButton, .rightButton {
     font-size: 20px;
@@ -101,6 +101,10 @@ body {
     background-color: #ffffff;
     border: 3px solid #f8f8f8;  
     background: transparent;  
+}
+
+.landingButtons{
+    margin-top: 110px;
 }
 
 .rightButton {
@@ -120,6 +124,18 @@ body {
     line-height: 22px;
     color: #ffffff;
     margin-top: 100px;    
+}
+
+@media only screen and (max-width : 1000px) {
+    #home h1 {
+        line-height: 52px;
+    }
+    .landingButtons div {
+        width: 50%;
+    }
+    .arrow {
+        margin-top: 50px;
+    }
 }
 
 /* about section */

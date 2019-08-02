@@ -14,7 +14,7 @@ body {
 .header {
     width: 1403px;    
     height: 782px;
-    max-width: 100%;    
+    max-width: 100%;
     background-color: #000000;
     background-image: url(./Img/Header/Header_bg_img.png);
 }
@@ -176,6 +176,7 @@ body {
     width: 1402px;
     height: 672px;
     max-width: 100%;
+    height: auto;
 }
 
 #about h2 {
@@ -235,6 +236,22 @@ body {
     line-height: 22px;
     color: #212121;    
     font-weight: 400;   
+}
+
+
+@media only screen and (max-width : 1000px) {
+    .aboutCards {
+        margin-top: 55px;
+    }
+
+    .aboutCards .col-lg-4 {
+        display: flex;        
+        justify-content: center;
+    }
+
+    #about .card {
+        height: auto !important;
+    }
 }
 
 /* servicing section */
@@ -315,6 +332,11 @@ body {
     font-weight: 600;
     margin-top: 40px;     
 }
+
+@media only screen and (max-width : 1000px) {
+    
+}
+
 
 /* servising hover card */
 
